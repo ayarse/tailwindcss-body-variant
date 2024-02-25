@@ -2,17 +2,6 @@
   "name": "tailwindcss-body-variant",
   "version": "1.0.0",
   "description": "A Tailwind CSS plugin that adds a body variant to conditionally apply styles based on the presence of a certain class on the body tag.",
-  "main": "src/index.cjs",
-  "scripts": {
-    "format": "prettier --write ."
-  },
-  "devDependencies": {
-    "prettier": "^3.2.5",
-    "tailwindcss": "^3.2.0"
-  },
-  "peerDependencies": {
-    "tailwindcss": ">= 3.2"
-  },
   "keywords": [
     "tailwindcss",
     "tailwind",
@@ -21,6 +10,20 @@
     "body",
     "variant"
   ],
+  "main": "src/index.cjs",
+  "scripts": {
+    "format": "prettier --write ."
+  },
+  "files": [
+    "src"
+  ],
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "tailwindcss": "^3.2.0"
+  },
+  "peerDependencies": {
+    "tailwindcss": ">= 3.2"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ayarse/tailwindcss-body-variant.git"

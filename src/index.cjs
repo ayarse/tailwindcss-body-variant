@@ -1,5 +1,6 @@
 /**
- * A Tailwind CSS plugin that matches variants for the body element.
+ * A Tailwind CSS plugin that introduces a new `body` variant to
+ * target elements based on the `body` tag's class list.
  *
  * Usage:
  * ```html
@@ -10,8 +11,8 @@
  *   </body>
  * ```
  */
-const plugin = require("tailwindcss/plugin");
+const plugin = require('tailwindcss/plugin');
 
 module.exports = plugin(function ({ matchVariant }) {
-  matchVariant("body", (value) => `body.${value} &`);
+  matchVariant('body', (value) => `body.${value} &`);
 });
