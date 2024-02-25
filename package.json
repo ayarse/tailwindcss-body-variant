@@ -1,6 +1,6 @@
 {
   "name": "tailwindcss-body-variant",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Tailwind CSS plugin that adds a body variant to conditionally apply styles based on the presence of a certain class on the body tag.",
   "keywords": [
     "tailwindcss",
