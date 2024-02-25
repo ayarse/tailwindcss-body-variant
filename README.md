@@ -14,7 +14,7 @@ Add the plugin to your `tailwind.config.js` file:
 module.exports = {
   // ... other Tailwind config
   plugins: [
-    require("tailwindcss-body-variant"),
+    require('tailwindcss-body-variant'),
     // ... other plugins
   ],
 };
@@ -30,7 +30,7 @@ module.exports = {
    <body class="menu-open"></body>
    ```
 
-2. Prefix any utility class with `body-[class-name]:` to apply styles only when the `[class-name]` class is present on the body.
+2. Prefix any utility class with `body-[class-name]:` to apply styles only when the `.class-name` class is present on the body.
 
    Example:
 
@@ -41,14 +41,14 @@ module.exports = {
    Example (React):
 
    ```tsx
-   import React, { useEffect } from "react";
+   import React, { useEffect } from 'react';
 
    const MenuComponent = ({ open }: { open: boolean }) => {
      useEffect(() => {
-       document.body.classList.add("menu-open");
+       document.body.classList.add('menu-open');
 
        return () => {
-         document.body.classList.remove("menu-open");
+         document.body.classList.remove('menu-open');
        };
      }, []);
 
